@@ -1,9 +1,10 @@
 # 3-Equations
-This dataset has:
- - 10000 examples
- - An example consists of three equations on a blank image in **random** locations (each example comes in 3 different fonts)
- - Equations contain more advanced operations (e.g. logs, exponents, fractions) than just addition or substraction
+Dataset description:
+ - In our experiments, we have 10000 examples
+ - An example consists of three equations on a blank image in **random** locations
+ - Equations contain operations like logs, exponents, fractions rather than just additions or subtractions
  - Each example has an audio sample reading out two of the three equations at random, with a one-second silence between the equations
+ - Each example has a lip video related to the synthesized audio clip
 
 File info
  - `dataset.csv` has all information compiled into one CSV - LaTeX equations, their spoken word plaintext translations, the (x, y) positions on the corresponding image, and which equations are read out loud by the audio sample (0 based)
