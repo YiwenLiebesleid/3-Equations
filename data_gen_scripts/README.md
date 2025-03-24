@@ -26,4 +26,5 @@ Use [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) to synthesize synchronized li
 
 ## Reference
 [1] pyttsx3: https://github.com/nateshmbhat/pyttsx3
+
 [2] Prajwal K R, Mukhopadhyay R, Namboodiri V P, et al. A lip sync expert is all you need for speech to lip generation in the wild[C]//Proceedings of the 28th ACM international conference on multimedia. 2020: 484-492.
