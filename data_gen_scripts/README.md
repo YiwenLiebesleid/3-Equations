@@ -1,4 +1,5 @@
 # 3-Equations
+## Speech and Image
 ### This dataset has:
  - 10000 examples
  - An example consists of three equations on a blank image in **random** locations (each example comes in 3 different fonts)
@@ -8,3 +9,7 @@
 
 ### File info
  - `dataset.csv` has all information compiled into one csv - LaTeX equations, their spoken word plaintext translations, the (x, y) positions on the corresponding image, and which equations are read out loud by the audio sample (0 based)
+
+## Lip
+Use Wav2Lip to synthesize synchronized lip movement videos.
+```python ./wav2lip/Wav2Lip/inference.py --checkpoint_path ./wav2lip/Wav2Lip/checkpoints/wav2lip.pth --face /path/to/your/face/image --audio /path/to/your/audio --outfile /path/to/output```
