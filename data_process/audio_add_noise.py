@@ -132,9 +132,9 @@ def process_audio_files(clean_dir, df_audio, df_noise, output_dir, snr, epsilon=
 
 if __name__ == "__main__":
     ## speech_info.csv contains the information of the starting and endding timestamp of each equation sentence
-    df = pd.read_csv('./speech_info.csv')
+    df = pd.read_csv('./audio/speech_info.csv')
     ## noise_info.csv contains the information of the candidate noise audio
-    df_noise = pd.read_csv('./noise_info.csv')
+    df_noise = pd.read_csv('./audio/noise_info.csv')
     
     clean_dir = "./audio/clean"
     snrs = [20,10,5,0,-5,-10,-20]
